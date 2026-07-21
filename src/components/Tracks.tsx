@@ -82,9 +82,7 @@ export default function Tracks() {
               </div>
 
               <div className="flex flex-wrap items-center justify-between gap-4 border-t border-[var(--glass-border)] pt-4 mt-4">
-                <span className="px-3.5 py-1.5 rounded-full border border-[var(--accent-amber)]/20 text-[var(--accent-amber)] text-xs font-bold bg-[var(--accent-amber)]/5">
-                  Prize pool: ₹5 Lakhs
-                </span>
+                
                 <span className="text-xs text-[var(--accent-amber)] font-semibold group-hover:underline">
                   {expanded.structured ? 'Collapse Domains ↑' : 'Expand Domains (9) ↓'}
                 </span>
@@ -134,9 +132,7 @@ export default function Tracks() {
               </div>
 
               <div className="flex flex-wrap items-center justify-between gap-4 border-t border-[var(--glass-border)] pt-4 mt-4">
-                <span className="px-3.5 py-1.5 rounded-full border border-[var(--accent-violet)]/20 text-[var(--accent-violet-light)] text-xs font-bold bg-[var(--accent-violet)]/5">
-                  Prize pool: ₹5 Lakhs
-                </span>
+                
                 <span className="text-xs text-[var(--accent-violet-light)] font-semibold">
                   {expanded.open ? 'Collapse Domains ↑' : 'Expand Domains (3) ↓'}
                 </span>
