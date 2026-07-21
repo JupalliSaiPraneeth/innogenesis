@@ -231,9 +231,7 @@ export default function Home({ setActivePage, theme = 'dark' }: HomeProps) {
             <p className="text-base text-[var(--text-muted)] leading-relaxed mb-4">
               Detailed problem statements covering 9 distinct disciplines will be revealed on-site. Formulate smart answers using AI, Embedded IoT, Energy grids, and Civil Engg.
             </p>
-            <span className="inline-block px-3.5 py-1.5 bg-[var(--accent-amber)]/10 text-[var(--accent-amber)] text-sm font-semibold rounded-full border border-[var(--accent-amber)]/20">
-              ₹5 Lakhs Pool
-            </span>
+            
           </div>
 
           <div className="bg-[var(--glass-bg)] border border-[var(--glass-border)] rounded-2xl p-6 hover:border-[var(--accent-violet)]/30 transition-all group">
@@ -242,9 +240,7 @@ export default function Home({ setActivePage, theme = 'dark' }: HomeProps) {
             <p className="text-base text-[var(--text-muted)] leading-relaxed mb-4">
               Bring your own challenge and manifest a complete digital or mechanical product in hardware development, general AI applications, and healthcare delivery.
             </p>
-            <span className="inline-block px-3.5 py-1.5 bg-[var(--accent-violet)]/10 text-[var(--accent-violet-light)] text-sm font-semibold rounded-full border border-[var(--accent-violet)]/20">
-              ₹5 Lakhs Pool
-            </span>
+           
           </div>
         </div>
 
